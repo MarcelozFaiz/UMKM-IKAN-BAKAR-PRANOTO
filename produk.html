@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<!-- Keterangan: Menetapkan tipe dokumen sebagai HTML5 -->
+<html lang="en">
+<!-- Keterangan: Elemen root dengan bahasa Inggris -->
+
+<head>
+    <!-- Keterangan: Bagian meta dan resource -->
+    <meta charset="UTF-8">
+    <!-- Keterangan: Encoding karakter UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Keterangan: Responsif mobile -->
+    <title>Produk - UMKM Ikan Bakar Pranoto</title>
+    <!-- Keterangan: Judul halaman -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Keterangan: Menghubungkan stylesheet lokal -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Keterangan: Bootstrap CSS via CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Keterangan: Bootstrap JS bundle -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Keterangan: jQuery via CDN -->
+</head>
+<!-- Keterangan: Akhir head -->
+
+<body>
+    <!-- Keterangan: Awal body -->
+    <header>
+        <!-- Keterangan: Header dengan navigasi -->
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:  #532a10;">
+            <!-- Keterangan: Navbar Bootstrap -->
+            <div class="container-fluid">
+                <!-- Keterangan: Container fluid untuk layout -->
+                <a class="navbar-brand fw-bold">Ikan Bakar Pranoto</a>
+                <!-- Keterangan: Brand teks pada navbar -->
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"> <!-- Keterangan: Tombol toggler untuk mobile -->
+                    <span class="navbar-toggler-icon"></span> <!-- Keterangan: Ikon toggler -->
+                </button>
+                <!-- Keterangan: Akhir tombol toggler -->
+
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <!-- Keterangan: Menu yang dapat dilipat -->
+                    <div class="navbar-nav ms-auto">
+                        <!-- Keterangan: Link navigasi (rata kanan) -->
+                        <a class="nav-link fw-bold" href="index.html">Beranda</a>
+                        <!-- Keterangan: Link ke Beranda -->
+                        <a class="nav-link fw-bold" href="tentang.html">Tentang Kami</a>
+                        <!-- Keterangan: Link ke Tentang -->
+                        <a class="nav-link fw-bold active" aria-current="page" href="produk.html">Produk</a>
+                        <!-- Keterangan: Link aktif Produk -->
+                        <a class="nav-link fw-bold" href="galeri.html">Galeri</a>
+                        <!-- Keterangan: Link ke Galeri -->
+                        <a class="nav-link fw-bold" href="kontak.html">Kontak</a>
+                        <!-- Keterangan: Link ke Kontak -->
+                    </div>
+                    <!-- Keterangan: Akhir navbar-nav -->
+                </div>
+                <!-- Keterangan: Akhir collapse -->
+            </div>
+            <!-- Keterangan: Akhir container-fluid -->
+        </nav>
+        <!-- Keterangan: Akhir nav -->
+    </header>
+    <!-- Keterangan: Akhir header -->
+
+    <main>
+        <!-- Keterangan: Konten utama -->
+        <h2>Profil Produk</h2>
+        <!-- Keterangan: Judul seksi -->
+        <img src="images/logo.png" alt="Logo Ikan Bakar Pranoto" width="25%" />
+        <!-- Keterangan: Logo usaha -->
+        <p>
+            <!-- Keterangan: Paragraf pembuka produk -->
+            Kami menyediakan berbagai produk ikan bakar berkualitas dengan cita rasa khas nusantara. Berikut adalah daftar produk unggulan kami yang siap memanjakan lidah Anda:
+        </p>
+        <!-- Keterangan: Akhir paragraf -->
+        <h3>Produk Kami</h3>
+        <!-- Keterangan: Subjudul produk -->
+        <p>Berikut adalah produk kami</p>
+        <!-- Keterangan: Penjelasan singkat -->
+
+        <table border="1" cellspacing="0" cellpadding="7">
+            <!-- Keterangan: Tabel daftar produk sederhana -->
+            <thead>
+                <!-- Keterangan: Kepala tabel -->
+                <tr>
+                    <!-- Keterangan: Baris header -->
+                    <th>Nama Produk</th>
+                    <!-- Keterangan: Kolom nama -->
+                    <th>Deskripsi</th>
+                    <!-- Keterangan: Kolom deskripsi -->
+                    <th>Harga</th>
+                    <!-- Keterangan: Kolom harga -->
+                </tr>
+                <!-- Keterangan: Akhir baris header -->
+            </thead>
+            <!-- Keterangan: Akhir thead -->
+            <tbody>
+                <!-- Keterangan: Isi tabel -->
+                <tr>
+                    <!-- Keterangan: Baris produk 1 -->
+                    <td>Ikan Bawal Bakar</td>
+                    <!-- Keterangan: Nama produk -->
+                    <td>Ikan dengan citarasa khas Nusantara</td>
+                    <!-- Keterangan: Deskripsi -->
+                    <td>Rp 20.000</td>
+                    <!-- Keterangan: Harga -->
+                </tr>
+                <!-- Keterangan: Akhir baris -->
+                <tr>
+                    <!-- Keterangan: Baris produk 2 -->
+                    <td>Ikan Gurame Bakar</td>
+                    <!-- Keterangan: Nama produk -->
+                    <td>Ikan dengan rasa gurih dan bumbu yang meresap</td>
+                    <!-- Keterangan: Deskripsi -->
+                    <td>Rp 45.000</td>
+                    <!-- Keterangan: Harga -->
+                </tr>
+                <!-- Keterangan: Akhir baris -->
+                <tr>
+                    <!-- Keterangan: Baris produk 3 -->
+                    <td>Ikan Jeruk Bakar</td>
+                    <!-- Keterangan: Nama produk -->
+                    <td>Ikan segar yang dibakar dengan bumbu khas, menghasilkan cita rasa gurih dengan sentuhan asam segar yang meresap hingga ke dalam daging ikan, disajikan hangat dan menggugah selera.</td>
+                    <!-- Keterangan: Deskripsi panjang -->
+                    <td>Rp 30.000</td>
+                    <!-- Keterangan: Harga -->
+                </tr>
+                <!-- Keterangan: Akhir baris -->
+                <tr>
+                    <!-- Keterangan: Baris produk 4 -->
+                    <td>Ikan Kakap Merah Bakar</td>
+                    <!-- Keterangan: Nama produk -->
+                    <td>Ikan kakap merah pilihan yang dibakar sempurna dengan racikan bumbu rempah tradisional, menghadirkan tekstur daging yang lembut, rasa gurih alami, dan aroma bakaran yang khas.</td>
+                    <!-- Keterangan: Deskripsi panjang -->
+                    <td>Rp 40.000</td>
+                    <!-- Keterangan: Harga -->
+                </tr>
+                <!-- Keterangan: Akhir baris -->
+                <tr>
+                    <!-- Keterangan: Baris produk 5 -->
+                    <td>Ikan Kerapu Bakar</td>
+                    <!-- Keterangan: Nama produk -->
+                    <td>Ikan kerapu segar yang dibakar dengan bumbu sederhana namun kaya rasa, menghasilkan daging ikan yang tebal, lembut, dan juicy dengan perpaduan rasa gurih dan aroma asap yang nikmat.</td>
+                    <!-- Keterangan: Deskripsi panjang -->
+                    <td>Rp 25.000</td>
+                    <!-- Keterangan: Harga -->
+                </tr>
+                <!-- Keterangan: Akhir baris -->
+                <tr>
+                    <!-- Keterangan: Baris keterangan pajak -->
+                    <td colspan="5" style="text-align: center; background-color: #eee;">Tidak di kenakan Biaya Pajak Apapun
+                    </td>
+                    <!-- Keterangan: Sel menampilkan info pajak -->
+                </tr>
+                <!-- Keterangan: Akhir baris -->
+            </tbody>
+            <!-- Keterangan: Akhir tbody -->
+        </table>
+        <!-- Keterangan: Akhir tabel -->
+
+        <div class="container my-4">
+            <!-- Keterangan: Container untuk kartu produk -->
+            <div class="row g-4 justify-content-center">
+                <!-- Keterangan: Grid baris kartu -->
+
+                <div class="col-md-4 col-sm-6">
+                    <!-- Keterangan: Kolom kartu 1 -->
+                    <div class="card shadow-sm" style="width: 18rem;">
+                        <!-- Keterangan: Kartu produk -->
+                        <img src="images/bawal.webp" class="card-img-top" alt="Ikan Bawal Bakar">
+                        <!-- Keterangan: Gambar produk -->
+                        <div class="card-body text-center">
+                            <!-- Keterangan: Isi kartu -->
+                            <h5 class="card-title fw-bold">Ikan Bawal</h5>
+                            <!-- Keterangan: Judul kartu -->
+                            <p class="card-text">Ikan dengan citarasa khas Nusantara</p>
+                            <!-- Keterangan: Deskripsi singkat -->
+                            <p class="text-success fw-semibold"> <span id="hasil-rating1"></span></p>
+                            <!-- Keterangan: Tempat rating dinamis -->
+                        </div>
+                        <!-- Keterangan: Akhir card-body -->
+                    </div>
+                    <!-- Keterangan: Akhir card -->
+                </div>
+                <!-- Keterangan: Akhir kolom -->
+
+                <div class="col-md-4 col-sm-6">
+                    <!-- Keterangan: Kolom kartu 2 -->
+                    <div class="card shadow-sm" style="width: 18rem;">
+                        <!-- Keterangan: Kartu produk -->
+                        <img src="images/gurame.jpg" class="card-img-top" alt="Ikan Gurame Bakar">
+                        <!-- Keterangan: Gambar produk -->
+                        <div class="card-body text-center">
+                            <!-- Keterangan: Isi kartu -->
+                            <h5 class="card-title fw-bold">Ikan Gurame</h5>
+                            <!-- Keterangan: Judul kartu -->
+                            <p class="card-text">Ikan dengan rasa gurih dan bumbu yang meresap</p>
+                            <!-- Keterangan: Deskripsi singkat -->
+                            <p class="text-success fw-semibold"> <span id="hasil-rating2"></span></p>
+                            <!-- Keterangan: Tempat rating dinamis -->
+                        </div>
+                        <!-- Keterangan: Akhir card-body -->
+                    </div>
+                    <!-- Keterangan: Akhir card -->
+                </div>
+                <!-- Keterangan: Akhir kolom -->
+
+                <div class="col-md-4 col-sm-6">
+                    <!-- Keterangan: Kolom kartu 3 -->
+                    <div class="card shadow-sm" style="width: 18rem;">
+                        <!-- Keterangan: Kartu produk -->
+                        <img src="images/jeruk.jpg" class="card-img-top" alt="Ikan Jeruk Bakar">
+                        <!-- Keterangan: Gambar produk -->
+                        <div class="card-body text-center">
+                            <!-- Keterangan: Isi kartu -->
+                            <h5 class="card-title fw-bold">Ikan Jeruk</h5>
+                            <!-- Keterangan: Judul kartu -->
+                            <p class="card-text">Ikan segar yang dibakar dengan bumbu khas</p>
+                            <!-- Keterangan: Deskripsi singkat -->
+                            <p class="text-success fw-semibold"> <span id="hasil-rating3"></span></p>
+                            <!-- Keterangan: Tempat rating dinamis -->
+                        </div>
+                        <!-- Keterangan: Akhir card-body -->
+                    </div>
+                    <!-- Keterangan: Akhir card -->
+                </div>
+                <!-- Keterangan: Akhir kolom -->
+
+                <div class="col-md-4 col-sm-6">
+                    <!-- Keterangan: Kolom kartu 4 -->
+                    <div class="card shadow-sm" style="width: 18rem;">
+                        <!-- Keterangan: Kartu produk -->
+                        <img src="images/kakapmerah.jpg" class="card-img-top" alt="Ikan Kakap Merah Bakar">
+                        <!-- Keterangan: Gambar produk -->
+                        <div class="card-body text-center">
+                            <!-- Keterangan: Isi kartu -->
+                            <h5 class="card-title fw-bold">Ikan Kakap Merah</h5>
+                            <!-- Keterangan: Judul kartu -->
+                            <p class="card-text">Menghadirkan tekstur daging yang lembut, rasa gurih alami, dan aroma bakaran yang khas.</p>
+                            <!-- Keterangan: Deskripsi singkat -->
+                            <p class="text-success fw-semibold"> <span id="hasil-rating4"></span></p>
+                            <!-- Keterangan: Tempat rating dinamis -->
+                        </div>
+                        <!-- Keterangan: Akhir card-body -->
+                    </div>
+                    <!-- Keterangan: Akhir card -->
+                </div>
+                <!-- Keterangan: Akhir kolom -->
+
+                <div class="col-md-4 col-sm-6">
+                    <!-- Keterangan: Kolom kartu 5 -->
+                    <div class="card shadow-sm" style="width: 18rem;">
+                        <!-- Keterangan: Kartu produk -->
+                        <img src="images/kerapu.jpg" class="card-img-top" alt="Ikan Kerapu Bakar">
+                        <!-- Keterangan: Gambar produk -->
+                        <div class=" card-body text-center ">
+                            <!-- Keterangan: Isi kartu (ada spasi class) -->
+                            <h5 class="card-title fw-bold ">Ikan Kerapu</h5>
+                            <!-- Keterangan: Judul kartu (spasi ekstra) -->
+                            <p class="card-text ">Ikan kerapu segar yang dibakar dengan bumbu sederhana namun kaya rasa.</p>
+                            <!-- Keterangan: Deskripsi (spasi ekstra) -->
+                            <p class="text-success fw-semibold "> <span id="hasil-rating5 "></span></p>
+                            <!-- Keterangan: Tempat rating (spasi ekstra di id) -->
+                        </div>
+                        <!-- Keterangan: Akhir card-body -->
+                    </div>
+                    <!-- Keterangan: Akhir card -->
+                </div>
+                <!-- Keterangan: Akhir kolom -->
+
+
+            </div>
+            <!-- Keterangan: Akhir row -->
+        </div>
+        <!-- Keterangan: Akhir container -->
+
+        <h3>Form Pemesanan :</h3>
+        <!-- Keterangan: Judul form pemesanan -->
+        <form onsubmit="return cekForm() ">
+            <!-- Keterangan: Form dengan handler JS cekForm -->
+            <label for="nama ">Nama Lengkap:</label><br>
+            <!-- Keterangan: Label nama -->
+            <input type="text " id="nama " name="nama " placeholder="Masukkan nama lengkap "><br><br>
+            <!-- Keterangan: Input nama (ada spasi ekstra pada atribut) -->
+
+            <label for="alamat ">Alamat Pengiriman:</label><br />
+            <!-- Keterangan: Label alamat -->
+            <textarea id="alamat " name="alamat " rows="4 " cols="50 " required></textarea><br /><br />
+            <!-- Keterangan: Textarea alamat (atribut ada spasi) -->
+
+            <label for="produk ">Pilih Produk:</label><br>
+            <!-- Keterangan: Label pilihan produk -->
+            <select id="produk " name="produk "> <!-- Keterangan: Select produk (id/name ada spasi) -->
+                <option value=" ">--Pilih Produk--</option> <!-- Keterangan: Opsi placeholder -->
+                <option value="Ikan Bawal Bakar ">Ikan Bawal - Rp 20000</option> <!-- Keterangan: Opsi produk -->
+                <option value="Ikan gurame Bakar ">Ikan Gurame - Rp 45000</option> <!-- Keterangan: Opsi produk (case inconsistent) -->
+                <option value="Ikan Jeruk Bakar ">Ikan Jeruk- Rp 30000</option> <!-- Keterangan: Opsi produk -->
+                <option value="Ikan Kakap Merah Bakar ">Ikan Kakap Merah - Rp 40000</option> <!-- Keterangan: Opsi produk -->
+                <option value="Ikan Kerapu Bakar ">Ikan Kerapu- Rp 25000</option> <!-- Keterangan: Opsi produk -->
+                
+            </select><br><br>
+            <!-- Keterangan: Akhir select -->
+
+            <label for="jumlah ">Jumlah Pesanan:</label><br>
+            <!-- Keterangan: Label jumlah -->
+            <input type="number " id="jumlah " name="jumlah " min="1 " placeholder="Masukkan jumlah pesanan "><br><br>
+            <!-- Keterangan: Input jumlah pesanan -->
+
+            <button type="submit ">Pesan</button>
+            <!-- Keterangan: Tombol submit -->
+        </form>
+        <!-- Keterangan: Akhir form -->
+
+        <h3>Testimoni Pengunjung :</h3>
+        <!-- Keterangan: Judul testimoni -->
+        <ol id="testimoni-list"></ol>
+        <!-- Keterangan: Daftar testimoni akan diisi via JS -->
+
+        <h3>Cek Usia Pengunjung</h3>
+        <!-- Keterangan: Judul cek usia -->
+        <div id="kategori-usia ">
+            <!-- Keterangan: Kontainer cek usia (id ada spasi) -->
+            <label for="usia ">Masukkan Usia Anda:</label>
+            <!-- Keterangan: Label usia -->
+            <input type="number " id="usia " name="usia " placeholder="Masukkan usia ">
+            <!-- Keterangan: Input usia -->
+            <button onclick="cekKategori() ">Cek Kategori</button>
+            <!-- Keterangan: Tombol panggil fungsi cekKategori -->
+            <p id="hasil-usia "></p>
+            <!-- Keterangan: Elemen hasil kategori usia -->
+        </div>
+        <!-- Keterangan: Akhir div cek usia -->
+    </main>
+    <!-- Keterangan: Akhir main -->
+    <footer>
+        <!-- Keterangan: Footer halaman -->
+        <p>&copy; 2025 Ikan Bakar Pranoto. Semua Hak di lindungi.</p>
+        <!-- Keterangan: Hak cipta -->
+    </footer>
+    <!-- Keterangan: Akhir footer -->
+    <script>
+        <!-- Keterangan: Script lokal berisi fungsi pemesanan dan logika -->
+        // Keterangan: Menghitung total harga berdasarkan harga dan jumlah
+        function hitungTotal(harga, jumlah) {
+            return harga * jumlah; // Keterangan: Mengembalikan hasil perkalian harga x jumlah
+        }
+
+        // Keterangan: Memeriksa form sebelum submit
+        function cekForm() {
+            let nama = document.getElementById("nama ").value; // Keterangan: Ambil nilai input nama (id mengandung spasi)
+            let produk = document.getElementById("produk ").value; // Keterangan: Ambil nilai produk
+            let jumlah = document.getElementById("jumlah ").value; // Keterangan: Ambil nilai jumlah
+
+            if (nama === " " || produk === " " || jumlah === " ") { // Keterangan: Validasi kosong (mengharuskan nilai tidak berupa spasi)
+                alert("Harap lengkapi semua kolom sebelum memesan. "); // Keterangan: Peringatan jika ada yang kosong
+                return false; // Keterangan: Mencegah submit
+            }
+
+            let hargaProduk = 0; // Keterangan: Variabel penyimpanan harga
+            switch (produk) { // Keterangan: Menentukan harga berdasarkan pilihan produk
+                case "Ikan Bawal Bakar ":
+                    hargaProduk = 20000;
+                    break; // Keterangan: Harga Ikan Bawal
+                case "Ikan Gurame Bakar ":
+                    hargaProduk = 45000;
+                    break; // Keterangan: Harga Ikan Gurame
+                case "Ikan Jeruk Bakar ":
+                    hargaProduk = 30000;
+                    break; // Keterangan: Harga Ikan Jeruk
+                case "Ikan Kakap Merah Bakar ":
+                    hargaProduk = 40000;
+                    break; // Keterangan: Harga Ikan Kakap Merah
+                case "Ikan Kerapu Bakar ":
+                    hargaProduk = 25000;
+                    break; // Keterangan: Harga Ikan Kerapu
+            }
+
+            let totalHarga = hitungTotal(hargaProduk, jumlah); // Keterangan: Hitung total harga
+
+            alert("Terima kasih " + nama + "! Pesanan Anda telah diterima. Total harga: Rp " + totalHarga + ". Jangan lupa untuk pesan lagi. "); // Keterangan: Pesan konfirmasi
+            return false; // Keterangan: Mencegah reload (form tetap tidak submit ke server)
+        }
+    </script>
+    <!-- Keterangan: Akhir script -->
+
+    <script>
+        <!-- Keterangan: Script untuk menampilkan testimoni -->
+        // Keterangan: Data testimoni contoh
+        let testimoni = [
+            "Ikan bakarnya enak banget! - Sari ",
+            "Ikan bakar Pranoto selalu jadi pilihan keluarga kami. - Joni ",
+            "Ikan bakar dengan bumbu rempahnya juara! - Lina ",
+            "Ikan bakar Gurame dini selalu segar dan lezat. - Budi ",
+            "Ikan bakar Kakap Merahnya bikin nagih! - Maya ",
+            "Ikan bakar Kerapu di sini paling enak di kota. - Rina "
+
+        ];
+        testimoni.forEach(function(item) { // Keterangan: Loop untuk menambahkan tiap testimoni ke daftar
+            let li = document.createElement("li"); // Keterangan: Buat elemen list item
+            li.textContent = item; // Keterangan: Isi text testimoni
+            document.getElementById("testimoni-list").appendChild(li); // Keterangan: Tambah ke ol testimoni
+        });
+    </script>
+    <!-- Keterangan: Akhir script testimoni -->
+    <script>
+        <!-- Keterangan: Script kategori usia -->
+        function cekKategori() { // Keterangan: Menentukan kategori usia berdasarkan input
+            let usia = document.getElementById("usia ").value; // Keterangan: Ambil nilai usia
+            let hasil = " "; // Keterangan: Variabel hasil kategori
+
+            if (usia < 13) {
+                hasil = "Anak-anak "; // Keterangan: Kategori anak-anak
+            } else if (usia >= 13 && usia <= 17) {
+                hasil = "Remaja "; // Keterangan: Kategori remaja
+            } else if (usia >= 18 && usia <= 60) {
+                hasil = "Dewasa "; // Keterangan: Kategori dewasa
+            } else {
+                hasil = "Lansia "; // Keterangan: Kategori lansia
+            }
+
+            document.getElementById("hasil-usia ").innerText = hasil; // Keterangan: Tampilkan hasil di elemen
+
+            alert("Kategori usia Anda adalah: " + hasil); // Keterangan: Popup hasil
+        }
+    </script>
+    <!-- Keterangan: Akhir script cek usia -->
+
+    <script>
+        <!-- Keterangan: Script menampilkan rating pada tiap produk -->
+        let ratings = [3.7, 4, 5, 4.5, 3.2, 3.8]; // Keterangan: Array nilai rating contoh
+
+        ratings.forEach(function(rating, index) { // Keterangan: Loop untuk tiap rating
+            let hasilId = "hasil-rating " + (index + 1); // Keterangan: Bangun id elemen rating (spasi di id sesuai file asli)
+            let hasilText = " "; // Keterangan: Teks rating yang akan ditampilkan
+
+            if (rating >= 4.5) {
+                hasilText = "★★★★★ Mantappppppp Banget ";
+            } else if (rating >= 3.8) {
+                hasilText = "★★★★ Sangat Disarankan ";
+            } else if (rating >= 3) {
+                hasilText = "★★★ Rekomendasi Biasa ";
+            } else {
+                hasilText = "★★ Tidak Direkomendasikan ";
+            }
+
+            document.getElementById(hasilId).textContent = hasilText; // Keterangan: Isi teks ke elemen rating
+        });
+    </script>
+    <!-- Keterangan: Akhir script rating -->
+</body>
+<!-- Keterangan: Akhir body -->
+
+</html>
+<!-- Keterangan: Akhir dokumen -->
